@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: rgb(23, 23, 23);
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    color: white;
+}
+.container{
+    padding: 40px;
+    margin: auto;
+    grid-template-columns: 350px 1fr;
+    display: grid;
+    max-width: 1200px;
+    gap: 40px;
+}
+.sidebar{
+    border-radius: 18px;
+    background-color: rgba(31, 31, 31, 0.925);
+    height: 90vh;
+}
+.profile{
+        text-align: center;
+
+}
+.profile img{
+    margin-top: 40px;
+    height: 130px;
+    width: 130px;
+    border: 2px solid #3a3a3a;
+    border-radius: 50%;
+}
+.profile h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.profile p{
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #454545;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: yellow;
+    padding: 5px 15px;
+}
+.contact{
+    border-top: 2px solid #3a3a3a ;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #3a3a3a ;
+
+}
+
+.label{
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: rgb(142, 136, 136);
+    padding-bottom: 5px;
+}
+.value{
+    font-size:0.9rem;
+    color: white;
+    text-decoration: none;
+}
+.email,.phone{
+    margin-bottom: 10px;
+}
+
+.social{
+    padding-top: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+.social img{
+    height: 40px;
+    margin-left: 10px;
+    width: 40px;
+    filter: grayscale(1) invert(0.7);
+    transition: filter 0.3 ease;
+}
+.social img:hover{
+    filter: grayscale(0) invert(0);
+
+}
+.main-content{
+    border-radius: 18px;
+    background-color: rgba(31, 31, 31, 0.925);
+    height: 90vh;
+}
