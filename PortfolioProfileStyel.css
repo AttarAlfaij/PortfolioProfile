@@ -78,14 +78,15 @@ body{
 }
 
 .social{
-    padding-top: 20px;
+    /* padding-top: 10px; */
     margin-top: 5px;
     text-align: center;
 }
 .social img{
-    height: 40px;
+    margin-top: 20px;
+    height: 30px;
     margin-left: 10px;
-    width: 40px;
+    width: 30px;
     filter: grayscale(1) invert(0.7);
     transition: filter 0.3 ease;
 }
